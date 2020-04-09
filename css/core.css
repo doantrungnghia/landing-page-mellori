@@ -155,7 +155,7 @@ footer {
     brightness(104%) contrast(90%);
 }
 .footer-links {
-  margin-top: 42px;
+  margin-top: 32px;
 }
 .footer-links li {
   display: inline;
@@ -174,7 +174,7 @@ footer {
   text-align: center;
   letter-spacing: 0.1px;
   color: #8a8a8e;
-  margin-top: 3rem;
+  margin-top: 32px;
 }
 
 @media (max-width: 767px) {
