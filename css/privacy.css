@@ -8,9 +8,24 @@
 }
 
 /* CONTENT */
-.privacry-content {
+.privacy-content {
   background: #e7fafb;
   color: #093935;
   padding-top: 50px;
   padding-bottom: 100px;
+}
+.privacy-content .small-title {
+  font-weight: bold;
+  margin: 2rem 0;
+  color: #093935;
+}
+.privacy-content p {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 767px) {
+  .privacy-banner {
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
 }
