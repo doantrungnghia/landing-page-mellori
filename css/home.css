@@ -1,0 +1,142 @@
+/**** CAPTION ****/
+.caption {
+  text-align: center;
+  max-width: 360px;
+  margin: auto;
+}
+.caption-small-title {
+  display: block;
+  font-size: 0.93rem;
+  line-height: 1.3rem;
+  letter-spacing: 0.075px;
+  color: #878787;
+  margin-bottom: 6px;
+}
+
+/**** EMAIL FORM ****/
+.email-form {
+  background: #ffffff;
+  border: 2px solid #737377;
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  margin-top: 50px;
+}
+.email-form input {
+  border: none;
+  display: block;
+  height: 100%;
+  height: 48px;
+  width: calc(100% - 230px);
+  padding: 0 1rem;
+}
+.email-form input::placeholder {
+  letter-spacing: 0.1px;
+  color: #737377;
+}
+.email-form button {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.3rem;
+  letter-spacing: 0.1px;
+  color: #e7fafb;
+  background: #0dceda;
+  border-radius: 2px;
+  padding: 14px 4px;
+  width: 230px;
+  border: 1px solid transparent;
+  transition: 0.4s;
+}
+.email-form button:hover {
+  background: #00a3ad;
+}
+
+/**** BANNER ****/
+.home-banner {
+  min-height: 100vh;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+}
+
+/**** DEMO ****/
+.demo {
+  padding: 80px 0;
+}
+.dots-image {
+  position: absolute;
+  top: -6%;
+  left: 15px;
+  z-index: -1;
+}
+.demo-caption {
+  margin-top: 80px;
+  margin-bottom: 35px;
+}
+
+/**** DISCUSSION ****/
+.discussion {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  background: #e7fafb;
+}
+
+/**** MATERIAL ****/
+.material {
+  padding: 60px 0;
+  background: #e7fafb;
+}
+
+/**** CONVERSATION ****/
+.conversation {
+  padding: 60px 0 100px 0;
+  background: #e7fafb;
+}
+
+/**** SUBSCRIPTION ****/
+.subscription {
+  padding: 80px 0 140px 0;
+}
+
+/**** FEATURES ****/
+.features {
+  padding: 140px 0;
+  background: #e7fafb;
+}
+.feature {
+  text-align: center;
+}
+
+@media (max-width: 540px) {
+  .email-form {
+    display: block;
+  }
+  .email-form button,
+  .email-form input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .discussion {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .material {
+    padding: 60px 0;
+  }
+  .conversation {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .features,
+  .subscription {
+    padding: 70px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .home-banner {
+    padding-top: 160px;
+  }
+}

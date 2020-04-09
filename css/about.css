@@ -1,0 +1,134 @@
+/**** BANNER ****/
+.about-banner {
+  padding-top: 170px;
+}
+.about-banner-img {
+  position: absolute;
+}
+.about-banner-img:first-child {
+  left: 0;
+  bottom: 20%;
+}
+.about-banner-img:last-child {
+  right: 0;
+  bottom: -6%;
+  z-index: -1;
+}
+.about-content {
+  position: relative;
+  padding: 0 188px;
+}
+.about-content img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -60px;
+  z-index: -1;
+}
+
+/**** TEAMS ****/
+.teams {
+  background: #f3fffe;
+  padding: 90px 0;
+}
+.team-member {
+  margin-top: 350px;
+}
+.member-block {
+  position: relative;
+  text-align: center;
+}
+.member-block::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 100%;
+  max-width: 256px;
+  height: 256px;
+  background: #d8f9f9;
+  border-radius: 27px;
+  z-index: 0;
+}
+.member-vector {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.member-vector.over {
+  bottom: -15px;
+}
+
+/* WORK */
+.work {
+  padding: 80px 0;
+}
+.reasons {
+  margin-top: 24px;
+}
+.reason {
+  margin: 24px 0;
+}
+
+/* BECOME */
+.become {
+  background: #f3fffe;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+.become-item-list {
+  padding-left: 0;
+}
+.become-item-list li {
+  display: inline;
+}
+.become-item-list a {
+  padding: 36px 40px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(21, 69, 96, 0.06);
+  border-radius: 4px;
+  margin: 24px 0;
+}
+.become-item-list .small-title,
+.become-item-list img {
+  transition: 0.3s;
+}
+.become-item-list a:hover .small-title {
+  color: #0dceda;
+}
+.become-item-list a:hover img {
+  filter: invert(57%) sepia(78%) saturate(1794%) hue-rotate(154deg)
+    brightness(104%) contrast(90%);
+}
+@media (max-width: 1199px) {
+  .about-content {
+    padding: 0 144px;
+  }
+  .become-item-list a {
+    padding: 26px 30px;
+  }
+}
+@media (max-width: 991px) {
+  .about-content {
+    padding: 0 40px;
+  }
+  .about-banner-img {
+    display: none;
+  }
+  .team-member {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-content {
+    padding: 0 20px;
+  }
+  .reason {
+    text-align: center;
+  }
+}
