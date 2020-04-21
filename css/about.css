@@ -31,6 +31,9 @@
   background: #f3fffe;
   padding: 90px 0;
 }
+.teams .container > .row:last-child {
+  margin-top: 90px;
+}
 .team-member {
   margin-top: 350px;
 }
