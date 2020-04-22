@@ -1,7 +1,6 @@
 /**** CAPTION ****/
 .caption {
   text-align: center;
-  max-width: 360px;
   margin: auto;
 }
 .caption-small-title {
@@ -57,38 +56,64 @@
   padding: 80px 0;
   display: flex;
   align-items: center;
-  background: linear-gradient(119.54deg, #fffeff 0.42%, #d9fffe 100.18%);
+  background: linear-gradient(240.03deg, #45e5c2 -25.84%, #0dceda 100%);
+}
+.home-banner .description {
+  color: #ffffff;
+}
+.home-banner .email-form {
+  border-color: #0c9199;
 }
 
 /**** MESSAGE ****/
+.message-wrapper {
+  background: #f4fcfd;
+}
 .message {
   padding: 100px 0;
-}
-.message .small-title {
-  color: #000000;
-  margin-bottom: 2rem;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 51, 67, 0.06);
+  border-radius: 4px;
+  position: relative;
+  top: -60px;
 }
 .message .email-form {
   margin-top: 80px;
+  width: 80%;
+  margin: 3rem auto 0 auto;
 }
-
+.message .description {
+  margin: 2rem 0;
+}
+.message .description:first-child {
+  margin-top: 3rem;
+}
 /**** DISCUSSION ****/
 .discussion {
-  padding-top: 100px;
+  padding-top: 20px;
   padding-bottom: 60px;
-  background: #e7fafb;
+  background: #f4fcfd;
+}
+
+/**** SUBSCRIPTION ****/
+.subscription {
+  padding: 140px 0;
+  background: linear-gradient(227.25deg, #45e5c2 -25.84%, #0dceda 100%);
+}
+.subscription .description {
+  color: #ffffff;
 }
 
 /**** MATERIAL ****/
 .material {
   padding: 60px 0;
-  background: #e7fafb;
+  background: #f4fcfd;
 }
 
 /**** CONVERSATION ****/
 .conversation {
-  padding: 60px 0 100px 0;
-  background: #e7fafb;
+  padding: 60px 0 80px 0;
+  background: #f4fcfd;
 }
 
 @media (max-width: 540px) {
@@ -103,20 +128,22 @@
 
 @media (max-width: 767px) {
   .discussion {
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
   }
   .material {
-    padding: 60px 0;
+    padding: 30px 0;
   }
   .conversation {
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 40px;
   }
-  .features,
   .subscription,
   .message {
     padding: 70px 0;
+  }
+  .message .email-form {
+    width: 100%;
   }
 }
 
