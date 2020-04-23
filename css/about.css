@@ -28,7 +28,7 @@
 
 /**** TEAMS ****/
 .teams {
-  background: #f3fffe;
+  background: #f4fcfd;
   padding: 90px 0;
 }
 .teams .container > .row:last-child {
@@ -93,7 +93,7 @@
 
 /* BECOME */
 .become {
-  background: #f3fffe;
+  background: #f4fcfd;
   padding-top: 80px;
   padding-bottom: 120px;
 }
